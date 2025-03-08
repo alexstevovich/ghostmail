@@ -1,0 +1,51 @@
+{
+    "name": "ghostmail",
+    "version": "1.0.1",
+    "description": "Obfuscates inline HTML email addresses to protect them from bots and scrapers.",
+    "main": "./index.cjs",
+    "module": "./index.mjs",
+    "type": "module",
+    "exports": {
+        "import": "./index.mjs",
+        "require": "./index.cjs"
+    },
+    "scripts": {
+        "test": "vitest run test/index.test.mjs && vitest run test/index.test.cjs",
+        "preamble": "npx lawfulgood --quick ./src/",
+        "filezord": "npx filezord --write .",
+        "pretty": "npx prettier --write .",
+        "lint": "eslint ./src/",
+        "lint:fix": "eslint --fix ./src/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alexstevovich/ghostmail.git"
+    },
+    "author": "Alex Stevovich (https://alexstevovich.com)",
+    "license": "Apache-2.0",
+    "keywords": [
+        "email",
+        "obfuscation",
+        "anti-spam",
+        "spam-protection",
+        "anti-scraping",
+        "bot-protection",
+        "zero-width-space",
+        "html-security",
+        "inline-email",
+        "obfuscator"
+    ],
+    "files": [
+        "./src/"
+    ],
+    "devDependencies": {
+        "@eslint/js": "^9.22.0",
+        "cspell": "^8.17.5",
+        "eslint": "^9.21.0",
+        "eslint-plugin-prettier": "^5.2.3",
+        "markdownlint": "^0.37.4",
+        "markdownlint-cli": "^0.44.0",
+        "prettier": "^3.5.3",
+        "vitest": "^3.0.8"
+    }
+}

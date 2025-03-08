@@ -1,0 +1,73 @@
+# Ignore Rust build artifacts
+target/
+**/*.rs.bk
+
+# Ignore Cargo lock file (optional, but recommended for libraries)
+Cargo.lock
+
+# Ignore Rust test & debug output
+debug.log
+*.log
+*.out
+
+# Ignore dependency build artifacts
+/.cargo/
+/.cargo-lock/
+
+# Ignore IDE/editor files
+.idea/
+.vscode/
+*.iml
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Ignore temporary files
+*.bak
+*.tmp
+*.cache
+
+# Ignore generated documentation
+/tar
+
+# Ignore Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Ignore Log Files & Debug Output
+log/
+logs/
+*.log
+
+# Filezord output
+filezord.txt
+
+# Ignore system-specific caches
+.cache/
+*.tmp
+
+# My Tools
+git-init.bat
+git-commit.bat
+git-push.bat
