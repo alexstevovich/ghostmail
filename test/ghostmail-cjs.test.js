@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
-const inlineObfuscate = require('../src/index.cjs');
+const { inlineObfuscate } = require('../gen/index.cjs');
 
-describe('Ghostmail CJS Tests', () => {
+describe('Ghostmail ESM Tests', () => {
     it('Generates correct obfuscated email', () => {
         const email = 'example.email@gmail.com';
         const seed = 987654;

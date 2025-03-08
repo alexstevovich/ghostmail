@@ -1,8 +1,10 @@
 # GhostMail
 
+> 
 > _"All the secrets of the world worth knowing are hiding in plain sight."_
 >
 > — Robin Sloan
+> 
 
 Obfuscates inline HTML email addresses to protect them from bots and scrapers.
 
@@ -20,7 +22,9 @@ Obfuscates inline HTML email addresses to protect them from bots and scrapers.
 
 <br>
 
+>
 > *Disguise the payload. Disappear into the DOM \*\* *Vanishes\* \*\*
+> 
 
 <br>
 
@@ -53,6 +57,7 @@ yarn add ghostmail
 
 <br>
     
+> 
 > *Strike swift. Encode deep. Leave nothing readable.*
 >
 
@@ -85,7 +90,9 @@ The same seed and email will always produce the same obfuscation, which is helpf
 
 <br>
 
-> They cannot spam what they cannot see
+> 
+> They cannot spam what they cannot see.
+> 
 
 <br>
 
@@ -124,7 +131,9 @@ I use GitHub as the primary public development spot:
 
 <br>
 
+> 
 > ### _Every char a ghost.... every address a myth._
+> 
 
 <br>
 

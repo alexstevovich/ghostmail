@@ -21,6 +21,7 @@ export default [
         },
 
         rules: {
+            'no-unused-private-class-members': 'off', // Disable rule if necessary
             'prettier/prettier': 'error',
             'padding-line-between-statements': [
                 'error',

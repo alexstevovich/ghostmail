@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "allowJs": true,
+        "noEmit": false,
+        "stripInternal": true,
+        "lib": ["esnext", "dom"], // 🔥 This allows TypeScript to use `Map`, `IterableIterator`
+        "target": "ES2020" // (or at least "ES2015")
+    },
+    "include": ["src/**/*"],
+    "exclude": ["index.d.ts", "node_modules"]
+}

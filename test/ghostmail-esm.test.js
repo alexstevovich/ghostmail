@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import ghostmail from '../src/index.mjs';
+import ghostmail from '../src/index.js';
 
 describe('Ghostmail ESM Tests', () => {
     it('Generates correct obfuscated email', () => {

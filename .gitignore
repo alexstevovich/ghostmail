@@ -61,7 +61,7 @@ logs/
 *.log
 
 # Filezord output
-filezord.txt
+.zord
 
 # Ignore system-specific caches
 .cache/
